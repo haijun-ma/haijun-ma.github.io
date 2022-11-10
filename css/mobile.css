@@ -1,19 +1,22 @@
-#what .items{
+#what .items {
     display: block;
 }
-#what .items .item{
+
+#what .items .item {
     display: flex;
     text-align: left;
 }
-#what .items .item i{
+
+#what .items .item i {
     margin-right: 1.3rem;
     align-self: center;
     margin-bottom: 0;
 }
+
 @media (max-width: 500px) {
-    #navbar{
+    #navbar {
         flex-direction: column;
-         align-items: center;
+        align-items: center;
     }
-    
+
 }
