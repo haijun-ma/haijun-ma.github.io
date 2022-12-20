@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/indexcss.css">
+    <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <title>夏辰的万事屋</title>
 </head>
 <body>
@@ -12,6 +13,21 @@
         <i class="fas fa-book-open"></i></span>
     夏辰的万事屋
 </h1>
+    <form data-hook="searchForm" action="https://www.baidu.com/s">
+        <div class="searchWrapper">
+            <ul>
+                <li>
+                    <label>
+                        <input placeholder="搜你想搜的" name="wd" value="" class="textInputBaidu" type="text" autocomplete="off" />
+                    </label>
+                </li>
+                <li>
+                    <button type="submit"  class="btnBaidu">搜一下</button>
+                    <input id="search_tn" type="hidden" value="kkjhy" name="tn" />
+                </li>
+            </ul>
+        </div>
+    </form>
 <ul>
     <li><a href="#home">1.Home</a></li>
     <li><a href="#what">2.What</a></li>
@@ -23,7 +39,7 @@
 </nav>
     <section id="home">
         <div>
-            html\css\js基础学习网站：<a href="https://developer.mozilla.org/zh-CN/">https://developer.mozilla.org/zh-CN/</a>
+            html\css\js基础学习网站：<a href="https://developer.mozilla.org/zh-CN/" target="_blank">https://developer.mozilla.org/zh-CN/</a>
         </div>
     </section>
     <section id="what">
@@ -38,5 +54,10 @@
     <section id="who3">
         <div>who3</div>
     </section>
+<iframe width="420" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=5"></iframe>
+<script src="js/clickjs.js"></script>
+<script src="js/ribbonjs.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+<span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span>
 </body>
 </html>
