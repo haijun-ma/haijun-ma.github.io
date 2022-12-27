@@ -1,3 +1,4 @@
+//这是一个背景彩带特效JS
 (function (name, factory) {
     if (typeof window === "object") {
         window[name] = factory();

@@ -1,3 +1,4 @@
+//这是一个鼠标点击彩球特效
 function clickEffect() {
     let balls = [];
     let longPressed = false;

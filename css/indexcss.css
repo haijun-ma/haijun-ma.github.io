@@ -1,0 +1,59 @@
+/*顶部导航栏*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+/*a跳转链接标签鼠标悬停时背景*/
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+/*a标签连接无下划线*/
+a {
+    text-decoration: none;
+}
+.text-primary {
+    color: #93cb52;
+}
+/*底部保持栏*/
+.foot {
+    font-family: "Font Awesome 6 Free Solid"sans-serif;
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+/*主列表样式*/
+#mainmenu ul li i {
+    color: gold;
+}
+#mainmenu ul li li{
+    color: #93cb52;
+}
+ul li ul {
+    display: none
+}
+li {
+    list-style-type: none;
+    line-height: 1.7;
+    text-indent: -12px
+}
