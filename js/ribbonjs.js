@@ -68,12 +68,12 @@
             colorSaturation: "80%",
             colorBrightness: "60%",
             colorAlpha: 0.65,
-            colorCycleSpeed: 6,
+            colorCycleSpeed: 8,
             verticalPosition: "center",
             horizontalSpeed: 200,
-            ribbonCount: 4,
+            ribbonCount: 3,
             strokeSize: 0,
-            parallaxAmount: -0.5,
+            parallaxAmount: -15.5,
             animateSections: true
         };
         this._onDraw = this._onDraw.bind(this);
@@ -113,7 +113,7 @@
                 this._context.globalAlpha = this._options.colorAlpha;
                 // 这里可以设置是否随着窗口的滚动而滚动
                 window.addEventListener("resize", this._onResize);
-                window.addEventListener("scroll", this._onScroll);
+                // window.addEventListener("scroll", this._onScroll);
                 // 这里设置添加的位置
                 const body_ = document.getElementsByTagName('body')[0];
                 body_.appendChild(this._canvas);

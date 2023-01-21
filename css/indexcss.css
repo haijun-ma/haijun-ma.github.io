@@ -1,17 +1,32 @@
 /*顶部导航栏*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
 #navbar {
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #navbar ul {
     display: flex;
     list-style: none;
     align-items: center;
+}
+.logo{
+    margin-left: 10px;
 }
 
 #navbar ul li a {
@@ -32,7 +47,6 @@ a {
 }
 /*底部保持栏*/
 .foot {
-    font-family: "Font Awesome 6 Free Solid"sans-serif;
     font-size: 10px;
     width: 100%;
     display: flex;
@@ -43,10 +57,10 @@ a {
     padding: 1rem;
 }
 /*主列表样式*/
-#mainmenu ul li i {
+#main-menu li i {
     color: gold;
 }
-#mainmenu ul li li{
+#main-menu ul li li{
     color: #93cb52;
 }
 ul li ul {
@@ -56,4 +70,7 @@ li {
     list-style-type: none;
     line-height: 1.7;
     text-indent: -12px
+}
+html{
+    font-family: "微软雅黑",sans-serif;
 }
