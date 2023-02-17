@@ -1,0 +1,106 @@
+/*顶部导航栏*/
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+/*a跳转链接标签鼠标悬停时背景*/
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+/*a标签连接无下划线*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6495ed;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.text-primary {
+    color: #93cb52;
+}
+
+/*底部保持栏*/
+.foot {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding: 1rem;
+    background-color: white;
+    margin: 0;
+
+}
+
+/*主列表样式*/
+#main-menu li i {
+    color: gold;
+}
+
+#main-menu ul li li {
+    color: #93cb52;
+}
+
+ul li ul {
+    display: none
+}
+
+li {
+    list-style-type: none;
+    line-height: 1.7;
+    text-indent: -12px
+}
+
+html {
+    font-family: "微软雅黑", sans-serif;
+}
+
+#mp {
+    width: 100%;
+    height: 80%;
+}
