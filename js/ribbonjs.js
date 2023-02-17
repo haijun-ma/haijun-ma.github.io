@@ -20,8 +20,8 @@
     const screenInfo = function () {
         const width = Math.max(0, _w.innerWidth || _d.clientWidth || _b.clientWidth || 0),
             height = Math.max(0, _w.innerHeight || _d.clientHeight || _b.clientHeight || 0),
-            scrollx = Math.max(0, _w.pageXOffset || _d.scrollLeft || _b.scrollLeft || 0) - (_d.clientLeft || 0),
-            scrolly = Math.max(0, _w.pageYOffset || _d.scrollTop || _b.scrollTop || 0) - (_d.clientTop || 0);
+            scrollx = Math.max(0, _w.scrollX || _d.scrollLeft || _b.scrollLeft || 0) - (_d.clientLeft || 0),
+            scrolly = Math.max(0, _w.scrollY || _d.scrollTop || _b.scrollTop || 0) - (_d.clientTop || 0);
         return {
             width: width,
             height: height,

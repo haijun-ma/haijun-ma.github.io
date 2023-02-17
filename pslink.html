@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pslink</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<!--下面是主页的主要树形菜单结构，其中文件夹级li后的a标签需要带class为a1,内容级的a标签不能带a1的class-->
+<ul id="main-menu">
+    <li><i class="fa-solid fa-folder"></i>
+        <a class="a1">第一级文件夹</a>
+        <ul class="menu">
+            <li><i class="fa-solid fa-folder"></i>
+                <a class="a1">第二级文件夹</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i>
+                        <a class="a1">第三级文件夹</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i>
+                                <a>第四级内容</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">5</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+        <ul class="menu">
+            <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">5</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+        <ul class="menu">
+            <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">5</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+        <ul class="menu">
+            <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">5</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><i class="fa-solid fa-folder"></i><a class="a1">5.夏辰的私藏</a>
+        <ul class="menu">
+            <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">4</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">1</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>1</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><i class="fa-solid fa-folder"></i><a class="a1">前端</a>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">网页前端</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i>
+                                <a href="https://developer.mozilla.org/zh-CN/" target="_blank">
+                                    html\css\js基础学习网站</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">2</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>2</a></li>
+                        </ul>
+                    </li>
+                    <li><i class="fa-solid fa-folder"></i><a class="a1">3</a>
+                        <ul class="menu">
+                            <li><i class="fa-solid fa-paperclip"></i><a>3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<script src="js/index.js"></script>
+<script src="js/clickjs.js"></script>
+</body>
+</html>
