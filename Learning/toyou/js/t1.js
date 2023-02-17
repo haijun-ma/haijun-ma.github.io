@@ -1,4 +1,4 @@
-let myHeading = document.querySelector('h1');
+/*let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt('你最爱的是谁？回答正确才能打开游戏哦！');
@@ -12,7 +12,7 @@ function setUserName() {
     }
 }
 
-setUserName()
+setUserName()*/
 
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 const guesses = document.querySelector('.guesses');
