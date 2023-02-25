@@ -22,7 +22,7 @@ function clickEffect() {
         window.addEventListener('resize', updateSize, false);
         loop();
         window.addEventListener("mousedown", function (e) {
-            pushBalls(randBetween(10, 20), e.clientX, e.clientY);
+            pushBalls(randBetween(7, 12), e.clientX, e.clientY);
             document.body.classList.add("is-pressed");
             longPress = setTimeout(function () {
                 document.body.classList.add("is-longpress");
