@@ -70,8 +70,8 @@
             colorAlpha: 0.65,
             colorCycleSpeed: 5,
             verticalPosition: "center",
-            horizontalSpeed: 150,
-            ribbonCount: 3,
+            horizontalSpeed: 100,
+            ribbonCount: 2,
             strokeSize: 0,
             parallaxAmount: -15.5,
             animateSections: true

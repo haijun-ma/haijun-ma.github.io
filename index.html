@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link href="css/index.css" rel="stylesheet">
     <script async src="https://lib.baomitu.com/busuanzi/2.3.0/bsz.pure.mini.js"></script>
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
     <title>夏辰的万事屋</title>
 </head>
 <body>
@@ -14,12 +14,14 @@
         <i class="fa-solid fa-code"></i></span>
         夏辰的万事屋
     </h1>
-    <form action="https://www.baidu.com/s" target="_blank">
-        <div class="bds"><i class="fa-solid fa-magnifying-glass"></i><input name="wd" type="text"/><input type="submit"
-                                                                                                          value="百度一下"/>
-        </div>
-    </form>
+
     <ul class="top-menu">
+        <li class="top-bd">
+            <form action="https://www.baidu.com/s" target="_blank">
+                <i class="fa-solid fa-magnifying-glass"></i>&nbsp<input name="wd" type="text"/><input type="submit"
+                                                                                                      value="百度一下"/>
+            </form>
+        </li>
         <li><a href="websiteNavigation.html" target="mpi"><i class="fa-solid fa-house"></i>导航页</a></li>
         <li><a href="pslink.html" target="mpi"><i class="fa-solid fa-bookmark"></i>书签页</a></li>
         <li><a href="thethings.html" target="mpi"><i class="fa-solid fa-bolt"></i>The thing</a></li>
@@ -35,11 +37,10 @@
     <iframe frameborder="0" height="100%" name="mpi" src="websiteNavigation.html" width="100%">1</iframe>
 </div>
 <div class="foot">
-    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <span id="busuanzi_container_site_uv">今日访问量<span id="busuanzi_value_site_uv"></span>次</span>
+    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次&nbsp;</span>
+    <span id="busuanzi_container_site_uv">访问用户数<span id="busuanzi_value_site_uv"></span>人</span>
 </div>
 <script src="js/clickjs.js"></script>
 <script src="js/ribbonjs.js"></script>
-<script src="js/pslink.js"></script>
 </body>
 </html>

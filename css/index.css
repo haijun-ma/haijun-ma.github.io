@@ -30,9 +30,12 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 .logo {
     margin-left: 50px;
+    /*    margin-top: 0px;
+        margin-bottom: 0px;*/
     padding-top: 20px;
 }
 
@@ -79,32 +82,38 @@ a:hover {
     height: 80%;
 }
 
-#navbar > form {
-    width: 25%;
+#navbar > ul > li > form {
+    width: 100%;
     position: relative;
-    left: 100px;
+    /*    left: 100px;*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar > form > div > input[type=text]:nth-child(1) {
+.top-menu > li > form > input[type=text]:nth-child(2) {
     width: 80%;
     height: 30px;
     border-width: 1px;
 }
 
-#navbar > form > div > input[type=submit]:nth-child(2) {
-    height: 32px;
+.top-menu > li > form > input[type=submit]:nth-child(3) {
+    height: 34px;
     background-color: #4e6ef2;
     color: white;
     border-radius: 0 10px 10px 0;
     border: 0;
-    margin-top: 2px;
+    /*    margin-top: 1px;
+        margin-bottom: 1px;*/
 }
 
-.bds {
-    width: 80%;
+.top-menu {
+    width: 65%;
+    padding: 0;
+}
+
+.top-bd {
+    width: 40%;
 }
 
 #navbar ul li i {
