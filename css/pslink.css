@@ -19,6 +19,7 @@ body {
 /*a标签连接无下划线*/
 a {
     text-decoration: none;
+    color: #333333;
 }
 
 a:hover {
@@ -48,7 +49,8 @@ li {
 }
 
 html {
-    font-family: "微软雅黑", sans-serif;
+    font-family: arial, hiragino sans gb, microsoft yahei, 微軟正黑體, sans-serif;
+    font-size: 16px;
 }
 
 #mp {
